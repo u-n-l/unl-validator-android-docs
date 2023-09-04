@@ -2084,42 +2084,11 @@
                                     style="word-break: break-word"
                                     href="#013"
                                     class="link inline-block link--gray"
-                                    >1.1.5</a
-                                  >
-                                </li>
-                               
-                                <li class="mb3 mb6-mxl">
-                                  <a
-                                    style="word-break: break-word"
-                                    href="#010"
-                                    class="link inline-block link--gray"
-                                    >1.1.4</a
-                                  >
-                                </li>
-                                <li class="mb3 mb6-mxl">
-                                  <a
-                                    style="word-break: break-word"
-                                    href="#006"
-                                    class="link inline-block link--gray"
-                                    >1.1.3</a
-                                  >
-                                </li>
-                                <li class="mb3 mb6-mxl">
-                                  <a
-                                    style="word-break: break-word"
-                                    href="#005"
-                                    class="link inline-block link--gray"
-                                    >1.1.1</a
-                                  >
-                                </li>
-                                <li class="mb3 mb6-mxl">
-                                  <a
-                                    style="word-break: break-word"
-                                    href="#004"
-                                    class="link inline-block link--gray"
                                     >1.1.0</a
                                   >
                                 </li>
+                               
+                               
                                
                               </ul>
                             </nav>
@@ -2132,85 +2101,16 @@
                                 <a
                                   href="#013"
                                   class="unprose color-blue-on-hover"
-                                  >1.1.5</a
-                                >
-                              </h2>
-                              <ul>
-                                <li>
-                                  Added a new map style option:
-                                  &#x27;rich&#x27;;
-                                </li>
-                                <li>
-                                  Allow passing a &#x27;tiles&#x27; parameter
-                                  during sdk initialization. In combination with
-                                  the <code>tilesSelectorControl</code> it
-                                  allows passing the options available for the
-                                  map style. If the tiles parameter is not sent,
-                                  by default, all the map style options will be
-                                  present: &#x27;rich&#x27;,
-                                  &#x27;default&#x27;, &#x27;satellite&#x27;,
-                                  &#x27;terrain&#x27;, &#x27;traffic&#x27;,
-                                  &#x27;base&#x27;; Eg.
-                                </li>
-                              </ul>
-                              <pre
-                                class="language-js"
-                              ><code class="language-js"><span class="token keyword"> unlMap.enableTileSelector(true)<span class="token punctuation">;</span>
-                              </code></pre>
-                             
-                             
-                              <h2 id="010" class="anchor">
-                                <a
-                                  href="#010"
-                                  class="unprose color-blue-on-hover"
-                                  >1.1.4</a
-                                >
-                              </h2>
-                              <ul>
-                                <li>
-                                  Added a parameter named &#x27;EnvironmentType&#x27; for
-                                  switching between the &#x27;sandbox&#x27; and
-                                  &#x27;prod&#x27; apis. The api key and vpm id
-                                  provided should be generated on the same env.
-                                  By default, the library is pointing to the
-                                  prod environment. Eg.
-                                </li>
-                              </ul>
-                              <pre
-                                class="language-js"
-                              ><code class="language-js"><span class="token keyword">  UnlMap(applicationContext,getString(R.string.api_key)</span> <span class="token operator">  ,getString(R.string.vpm_id),EnvironmentType.SANDBOX)</span> 
-                              </code></pre>
-                              <h2 id="006" class="anchor">
-                                <a
-                                  href="#006"
-                                  class="unprose color-blue-on-hover"
-                                  >1.1.3</a
-                                >
-                              </h2>
-                              <ul>
-                                <li>Resolve the static api_key issue</li>
-                              </ul>
-                              <h2 id="005" class="anchor">
-                                <a
-                                  href="#005"
-                                  class="unprose color-blue-on-hover"
-                                  >1.1.1</a
-                                >
-                              </h2>
-                              <ul>
-                                <li>
-                                  Added the Indoor map feature.
-                                </li>
-                              </ul>
-                              <h2 id="004" class="anchor">
-                                <a
-                                  href="#004"
-                                  class="unprose color-blue-on-hover"
                                   >1.1.0</a
                                 >
                               </h2>
                               <ul>
-                                <li>Fixed grid cell click issue.</li>
+                                <li>
+                                 Added all basic features to create an address.
+                                </li>
+                                <li>
+                                  Need API Key and VPM ID for authantication process in Address validator SDK.
+                                </li>
                               </ul>
                              
                               <br /><br /><br />
