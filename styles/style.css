@@ -1371,6 +1371,22 @@ div.runnablesample {
     margin-top: 20px;
 
 }
+
+/* introduction page css */
+
+.Set_AddMaven_1{
+    background-color: #fafafa;
+    padding: 10px;
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #999;
+    margin-top: 15px;
+}
+.Set_AddMaven_1 .Set_para{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
 .set_code_div{
     padding-left: 20px !important;
 }
@@ -1381,3 +1397,7 @@ div.runnablesample {
   border: 1px solid black;
   border-collapse: collapse;
 } */
+.shell-header-buffer {
+    display: flex;
+    padding: 15px 30px;
+}

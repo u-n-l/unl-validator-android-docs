@@ -1429,14 +1429,9 @@
       }
 
       .shell-header-buffer {
-        padding-top: 66px;
-      }
-
-      @media (min-width: 640px) {
-        .shell-header-buffer {
-          padding-top: 84px;
+            display: flex;
+            padding: 15px 30px;
         }
-      }
 
       .shell-animated-menu,
       .shell-mobile-nav__backdrop {
@@ -1663,7 +1658,9 @@
               role="main"
               style="z-index: 0; position: relative; display: block"
             >
-              <div class="shell-header-buffer"></div>
+            <div class="shell-header-buffer">
+              <img src="/images/logo_unl.svg" alt="" style="width: 10%; height: auto;">
+          </div>
               <div class="limiter limiter--wide">
                 <div class="flex-parent-mm">
                   <div
@@ -1692,14 +1689,16 @@
                           <ul>
                             <li>
                               <div
-                                class="px12 flex-parent txt-uppercase txt-fancy round-full w-full color-darken75"
-                              >
-                                <a
-                                  href="index.html"
+                                class="px12 flex-parent txt-uppercase txt-fancy round-full w-full color-darken75">
+                                <a href="index.html" class="flex-child flex-child--grow color-blue-on-hover py6 py3-mm"
+                                  style="letter-spacing: 0.025em">introduction</a>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="px12 flex-parent txt-uppercase txt-fancy round-full w-full color-darken75">
+                                <a href="gettingstart.html"
                                   class="flex-child flex-child--grow color-blue-on-hover py6 py3-mm"
-                                  style="letter-spacing: 0.025em"
-                                  >Getting started</a
-                                >
+                                  style="letter-spacing: 0.025em">Getting started</a>
                               </div>
                             </li>
                             <li>
