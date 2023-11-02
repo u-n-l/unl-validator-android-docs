@@ -2,7 +2,12 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>getCornerPath</title>
-<link href="../../../../../../images/favicon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script><script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../scripts/main.js" async="async"></script>  </head>
+<link href="../../../images/favicon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script><script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../scripts/main.js" async="async"></script> <style>
+  .shell-header-buffer {
+          display: flex;
+          padding: 15px 60px;
+      }
+</style> </head>
   <body>
     <header
 class="shell-absolute shell-w-full shell-z1"
@@ -10,11 +15,12 @@ data-swiftype-index="false"
 >
 
 <div class="shell-header-buffer">
-  <img src="images/logo_unl.svg" alt="" style="width: 10%; height: auto;">
+  <img src="../../../images/logo_unl.svg" alt="" style="width: 10%; height: auto;">
 </div>
 </div>
 </header>
     <div id="container">
+      <div class="limiter limiter--wide">
       <div id="leftColumn">
         <div class="">
           <div class="mb6 border-b border--darken10">
@@ -29,71 +35,46 @@ data-swiftype-index="false"
           </div>
           <nav class="mx-neg12">
             <ul>
-              <li>
-                  <div
-                    class="px12 flex-parent txt-uppercase txt-fancy round-full w-full color-darken75 bg-blue-faint color-blue">
-                    <a href="index.html" class="flex-child flex-child--grow color-blue-on-hover py6 py3-mm"
-                      style="letter-spacing: 0.025em">introduction</a>
-                  </div>
-                </li>
-                <li>
-                  <div class="px12 flex-parent txt-uppercase txt-fancy round-full w-full color-darken75">
-                    <a href="gettingstart.html"
-                      class="flex-child flex-child--grow color-blue-on-hover py6 py3-mm"
-                      style="letter-spacing: 0.025em">Getting started</a>
-                  </div>
-                </li>
-              <li>
-                <div
-                  class="px12 flex-parent txt-uppercase txt-fancy round-full w-full color-darken75"
-                >
-                  <a
-                    href="../../../Authentication.html"
-                    class="flex-child flex-child--grow color-blue-on-hover py6 py3-mm"
-                    style="letter-spacing: 0.025em"
-                    >Authentication</a
-                  >
-                </div>
-              </li>
-                                  <div
-                                    class="px12 flex-parent txt-uppercase txt-fancy round-full w-full color-darken75"
-                                  >
-                                    <a
-                                      href="../../../UNL-Plugins.html"
-                                      class="flex-child flex-child--grow color-blue-on-hover py6 py3-mm"
-                                      style="letter-spacing: 0.025em"
-                                      >SDK Package</a
-                                    >
-                                  </div>
-                                </li>
-              <li class="Set_Unl_Link">
-                <div id="sideMenu"></div>
-              </li>  
-                <li>
-                  <div
-                    class="px12 flex-parent txt-uppercase txt-fancy round-full w-full color-darken75"
-                  >
-                    <a
-                      href="../../../Examples.html"
-                      class="flex-child flex-child--grow color-blue-on-hover py6 py3-mm"
-                      style="letter-spacing: 0.025em"
-                      >Examples</a
-                    >
-                  </div>
-                </li>
-                <li>
-                  <div
-                    class="px12 flex-parent txt-uppercase txt-fancy round-full w-full color-darken75"
-                  >
-                    <a
-                      href="../../../Releasenotes.html"
-                      class="flex-child flex-child--grow color-blue-on-hover py6 py3-mm"
-                      style="letter-spacing: 0.025em"
-                      >Release Notes</a
-                    >
-                  </div>
-                </li>       
-            </ul>
+            <li>
+              <div class="px12 flex-parent txt-uppercase txt-fancy round-full w-full color-darken75 color-blue">
+                <a href="../../../index.html" class="flex-child--grow color-blue-on-hover py6 py3-mm"
+                  style="font-size: medium; letter-spacing: 0.025em">introduction</a>
+              </div>
+            </li>
+            <li>
+              <div class="px12 flex-parent txt-uppercase txt-fancy round-full w-full color-darken75">
+                <a href="../../../gettingstart.html" class="flex-child--grow color-blue-on-hover py6 py3-mm"
+                  style="font-size: medium; letter-spacing: 0.025em">Getting started</a>
+              </div>
+            </li>
+            <li>
+              <div class="px12 flex-parent txt-uppercase txt-fancy round-full w-full color-darken75">
+                <a href="../../../Authentication.html"
+                  class="flex-child--grow color-blue-on-hover py6 py3-mm"
+                  style="font-size: medium; letter-spacing: 0.025em">Authentication</a>
+              </div>
+            </li>
+            <div class="px12 flex-parent txt-uppercase txt-fancy round-full w-full bg-blue-faint color-darken75">
+              <a href="../../../UNL-Plugins.html" class="flex-child--grow color-blue-on-hover py6 py3-mm"
+                style="font-size: medium; letter-spacing: 0.025em">SDK Package</a>
+            </div>
+            </li>
+            <li class="Set_Unl_Link">
+              <div id="sideMenu"></div>
+            </li>
+            <li>
+              <div class="px12 flex-parent txt-uppercase txt-fancy round-full w-full color-darken75">
+                <a href="../../../Examples.html" class="flex-child--grow color-blue-on-hover py6 py3-mm"
+                  style="font-size: medium; letter-spacing: 0.025em">Sample Code</a>
+              </div>
+            </li>
+            <li>
+              <div class="px12 flex-parent txt-uppercase txt-fancy round-full w-full color-darken75">
+                <a href="../../../Releasenotes.html" class="flex-child--grow color-blue-on-hover py6 py3-mm"
+                  style="font-size: medium; letter-spacing: 0.025em">Release Notes</a>
+              </div>
+            </li>
+          </ul>
           </nav>
         </div>
       </div>
@@ -126,6 +107,7 @@ data-swiftype-index="false"
 <p class="paragraph">Generates a <a href="../-shape-path/index.html">ShapePath</a> for this corner treatment.</p><p class="paragraph">CornerTreatments are assumed to have an origin of (0, 0) (i.e. they represent the top-leftcorner), and are automatically rotated and scaled as necessary when applied to other corners.</p><h2 class="">Parameters</h2><div data-togglable="Parameters"><div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="Parameters"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UNLAddressValidator:dokkaHtml/release"><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":UNLAddressValidator:dokkaHtml/release" data-filterable-set=":UNLAddressValidator:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex">shapePath</span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">the <a href="../-shape-path/index.html">ShapePath</a> that this treatment should write to.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":UNLAddressValidator:dokkaHtml/release" data-filterable-set=":UNLAddressValidator:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex">angle</span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">the angle of the corner, typically 90 degrees.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":UNLAddressValidator:dokkaHtml/release" data-filterable-set=":UNLAddressValidator:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex">interpolation</span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">the interpolation of the corner treatment. Ranges between 0 (none) and 1(fully) interpolated. Custom corner treatments can implement interpolation to support shapetransition between two arbitrary states. Typically, a value of 0 indicates that the customcorner treatment is not rendered (i.e. that it is a 90 degree angle), and a value of 1indicates that the treatment is fully rendered. Animation between these two values can&quot;heal&quot; or &quot;reveal&quot; a corner treatment.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":UNLAddressValidator:dokkaHtml/release" data-filterable-set=":UNLAddressValidator:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex">bounds</span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">the bounds of the full shape that will be drawn. This could be used change thebehavior of the CornerTreatment depending on how much space is available for the fullshape.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":UNLAddressValidator:dokkaHtml/release" data-filterable-set=":UNLAddressValidator:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex">size</span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">the <a href="../-corner-size/index.html">CornerSize</a> used for this corner</p></div></div></div></div></div></div></div></div></div></div></div>
         </div>
          
+      </div>
       </div>
     </div>
   </body>

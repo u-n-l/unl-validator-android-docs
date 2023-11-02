@@ -626,11 +626,6 @@ body {
     url(https://api.mapbox.com/mapbox-assembly/fonts/CeraPRO-BoldItalic.v1.woff) format("woff");
 }
 
-.txt-fancy {
-  font-family: "Cera", "Open Sans", sans-serif !important;
-  font-weight: 700;
-}
-
 .btn--blue {
   background-color: #4264fb;
 }

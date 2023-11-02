@@ -253,6 +253,7 @@ html, .app-root {
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
+    padding-right: 1px;
   }
 
   body {
@@ -393,6 +394,7 @@ html, .app-root {
   .flex-child {
     display: block;
     max-width: 100%;
+    font-family: "poppins" !important;
   }
 
   .flex-child--grow {
@@ -400,10 +402,10 @@ html, .app-root {
     flex-grow: 1 !important;
     min-width: 0;
   }
-  .mx-neg12 {
+  /* .mx-neg12 {
     margin-left: -12px !important;
     margin-right: -12px !important;
-  }
+  } */
 
   .mb6 {
     margin-bottom: 6px !important;
@@ -462,6 +464,7 @@ html, .app-root {
 
   .txt-fancy {
     font-family: "Cera", "Open Sans", sans-serif !important;
+    /* font-family: "poppins" !important; */
     font-weight: 700;
   }
 
@@ -493,8 +496,8 @@ html, .app-root {
 
   @media screen and (min-width: 800px) {
     .limiter--wide {
-      /* width: 91.666666666% !important; */
-      width: 98% !important;
+      width: 91.666666666% !important;
+      /* width: 98% !important; */
     }
   }
   
